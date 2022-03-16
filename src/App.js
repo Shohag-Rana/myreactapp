@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useState, Component } from 'react';
+import React from 'react';
+import { render   }  from 'react-dom';
 import './App.css';
 import Alert from './components/Alert';
 import About from './components/About';
@@ -49,14 +51,14 @@ function App() {
   }
 
   return (
-    <>
+    <div>
       <Navbar title="TextUtils" aboutText="About Us" mode={mode} ToggleMode={ToggleMode} color={color} updateColor={updateColor} />
       <Alert alert={alert} />
       <div className="container my-3">
-      <TextForm heading="Enter your text below" showAlert={showAlert} mode={mode} color={color} updateColor={updateColor} />
+        <TextForm heading="Enter your text below" showAlert={showAlert} mode={mode} color={color} updateColor={updateColor} />
       <About />
       </div>
-    </>
+    </div>
   );
 }
 
