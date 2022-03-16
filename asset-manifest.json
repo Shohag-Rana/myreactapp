@@ -1,0 +1,15 @@
+{
+  "main.css": "/myreactapp/static/css/main.9a4e07e3.chunk.css",
+  "main.js": "/myreactapp/static/js/main.43f44540.chunk.js",
+  "main.js.map": "/myreactapp/static/js/main.43f44540.chunk.js.map",
+  "static/js/1.db20f86d.chunk.js": "/myreactapp/static/js/1.db20f86d.chunk.js",
+  "static/js/1.db20f86d.chunk.js.map": "/myreactapp/static/js/1.db20f86d.chunk.js.map",
+  "static/js/2.8766af2a.chunk.js": "/myreactapp/static/js/2.8766af2a.chunk.js",
+  "static/js/2.8766af2a.chunk.js.map": "/myreactapp/static/js/2.8766af2a.chunk.js.map",
+  "runtime~main.js": "/myreactapp/static/js/runtime~main.a4d5c58c.js",
+  "runtime~main.js.map": "/myreactapp/static/js/runtime~main.a4d5c58c.js.map",
+  "static/css/main.9a4e07e3.chunk.css.map": "/myreactapp/static/css/main.9a4e07e3.chunk.css.map",
+  "index.html": "/myreactapp/index.html",
+  "precache-manifest.cb48215a8ef77c43bb6f1baab211c8ee.js": "/myreactapp/precache-manifest.cb48215a8ef77c43bb6f1baab211c8ee.js",
+  "service-worker.js": "/myreactapp/service-worker.js"
+}
