@@ -4,7 +4,7 @@ import Alert from './components/Alert';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [color, setColor] = useState('white');
@@ -50,16 +50,12 @@ function App() {
 
   return (
     <>
-
-    <BrowserRouter>
-        <Navbar title="TextUtils" aboutText="About Us" mode={mode} ToggleMode={ToggleMode} color={color} updateColor={updateColor} />
-        <Alert alert={alert} />
-      <Routes>
-        <Route exact path="about" element={<About />} />
-        <Route exact path="/" element={<TextForm heading="Enter your text below" showAlert={showAlert} mode={mode} color={color} updateColor={updateColor} />} />
-      </Routes>
-    </BrowserRouter>
-
+      <Navbar title="TextUtils" aboutText="About Us" mode={mode} ToggleMode={ToggleMode} color={color} updateColor={updateColor} />
+      <Alert alert={alert} />
+      <div className="container my-3">
+      <TextForm heading="Enter your text below" showAlert={showAlert} mode={mode} color={color} updateColor={updateColor} />
+      <About />
+      </div>
     </>
   );
 }
